@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "973742011904",
+    "project_id": "semesterv2",
+    "storage_bucket": "semesterv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973742011904:android:670f35e7a55932ef604ae5",
+        "android_client_info": {
+          "package_name": "com.ayush.ambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973742011904-hhdpd0f91frp3lcjukrumqh65cu6p813.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayush.ambulance",
+            "certificate_hash": "85835c264e01aab709857b9e3e91be48b0ea55fb"
+          }
+        },
+        {
+          "client_id": "973742011904-r00ubb281hl7d00u9lbkbt04hg05ne68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ReTiO1ljerDVMEhKdWtkZ4mnGs52aSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973742011904-r00ubb281hl7d00u9lbkbt04hg05ne68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
