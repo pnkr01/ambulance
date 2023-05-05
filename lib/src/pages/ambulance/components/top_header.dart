@@ -1,5 +1,7 @@
 import 'package:ambulance/src/global/global.dart';
+import 'package:ambulance/src/pages/cpr/cpr.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class TopHeader extends StatefulWidget {
   //final GlobalKey<ScaffoldState> keys;
@@ -34,12 +36,23 @@ class _TopHeaderState extends State<TopHeader> {
               left: 130.0,
             ),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
-                Text(
+              children: [
+                const Text(
                   "Ambulance",
                   style: TextStyle(fontSize: 28, color: Colors.white),
                 ),
+                const SizedBox(width: 80),
+                IconButton(
+                  onPressed: () {
+                    Get.to(() => const CprPage());
+                  },
+                  icon: const Icon(
+                    Icons.info,
+                    color: Colors.white,
+                  ),
+                )
               ],
             ),
           ),
